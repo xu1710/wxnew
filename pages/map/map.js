@@ -1,21 +1,11 @@
-// pages/index/index.js
+// pages/map/map.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      '../image/spring_1.png',
-      '../image/summer_1.png',
-      '../image/autumn_1.png',
-      '../image/winter_1.png'
-    ],
-    phone: function (e) {
-      wx.makePhoneCall({
-        phoneNumber: '02787654182',
-      })
-    }
+
   },
 
   /**

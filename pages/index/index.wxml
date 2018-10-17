@@ -1,2 +1,52 @@
-<!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<view>
+  <swiper indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="pic"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<text>\n</text>
+<view class="body">
+
+  <view class="left">
+    <view class='l1'>
+      <navigator url='../university/university'>
+        <image class='pic1' src='../image/uni_1.png'></image>
+      </navigator>
+    </view>
+    <view class='l2'>
+      <text>学校简介</text>
+    </view>
+    <view class='l3'>
+      <navigator url='../map/map'>
+        <image class='pic1' src='../image/map_1.png'></image>
+      </navigator>
+    </view>
+    <view class='l4'>
+      <text>地图导航</text>
+    </view>
+  </view>
+  <view class='right'>
+    <view class='l1'>
+      <navigator url='../case/case'>
+        <image class='pic1' src='../image/library_1.png'></image>
+      </navigator>
+    </view>
+    <view class='l2'>
+      <text>理工影像</text>
+    </view>
+    <view class='l3'>
+      <navigator bindtap='phone'>
+        <image class='pic1' src='../image/phone_1.png'></image>
+      </navigator>
+    </view>
+    <view class='l4'>
+      <text>联系方式</text>
+    </view>
+  </view>
+</view>
+<view class='foot'>联系客服
+  <contact-button size='27'></contact-button>
+</view>

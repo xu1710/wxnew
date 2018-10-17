@@ -1,4 +1,4 @@
-// pages/index/index.js
+// pages/university/university.js
 Page({
 
   /**
@@ -10,12 +10,7 @@ Page({
       '../image/summer_1.png',
       '../image/autumn_1.png',
       '../image/winter_1.png'
-    ],
-    phone: function (e) {
-      wx.makePhoneCall({
-        phoneNumber: '02787654182',
-      })
-    }
+    ]
   },
 
   /**
