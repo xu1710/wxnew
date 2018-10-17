@@ -5,7 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    markers: [{
+      iconPath: "../image/mark.png",
+      id: 0,
+      longitude: 114.348278,
+      latitude: 30.521456,
+      title: "武汉理工大学"
 
+    }]
   },
 
   /**

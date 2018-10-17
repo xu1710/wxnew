@@ -1,2 +1,24 @@
 <!--pages/case/case.wxml-->
-<text>pages/case/case.wxml</text>
+<view class='page'>
+<view>
+    <swiper indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="pic"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <text>\n</text>
+ 
+  <view class="body">
+  <text>
+
+  </text>
+
+  <video src="https://www.icourse163.org/learn/WHUT-1001862005?tid=1003332007#/learn/content?type=detail&id=1004876034&cid=1006181046"> </video>
+
+
+</view>
+
+</view>
